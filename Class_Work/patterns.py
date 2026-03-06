@@ -54,7 +54,7 @@
 
 
 #task 3
-row = eval(input("Enter row :"))
-col = eval(input("Enter col :"))
-for i in range(1,row):
+# row = eval(input("Enter row :"))
+# col = eval(input("Enter col :"))
+# for i in range(1,row):
     
