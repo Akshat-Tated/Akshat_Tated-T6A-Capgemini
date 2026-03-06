@@ -24,18 +24,18 @@
 # print(extract_negative())
 
 
-a=3
+# a=3
 # for i in range(1,3):
 #     a += 2
-def changeval():
-    global a
-    t = 9
-    a = 1
-    def cval():
-        nonlocal t
-        t = 55
-changeval()
-print(a)
+# def changeval():
+#     global a
+#     t = 9
+#     a = 1
+#     def cval():
+#         nonlocal t
+#         t = 55
+# changeval()
+# print(a)
 
 #Main and important inbuild functions of DSs-
 
@@ -46,3 +46,25 @@ print(a)
 # Set - add, pop, remove, union, intersection, difference, clear, update.
 
 # Dict- keys, values, items, get, pop, popitems, update, clear.
+
+
+# 6 March
+# task - return product of list items
+# def inp(ls):
+#     prod = 1
+#     for i in ls:
+#         prod *= i
+#     return prod
+
+# print(inp(eval(input())))
+
+# WAP to print the initial index of a character present in a given string
+
+# def print_initial(str1,char1):
+#     for i in range(0,len(str1)):
+#         if str1[i] == char1:
+#             return i
+#     return -1
+# print(print_initial(input("enter a string : "),input("enter a character : ")))
+
+

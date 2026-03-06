@@ -1,0 +1,20 @@
+# packing - two types - tuple and dictionary
+
+# using tuple
+# def print_initial(v,*t):
+#     for i in range(0,len(t)):
+#         if t[i] == v:
+#             print(t)
+#             return i
+# print(print_initial(100,20,60,80,100,120))
+
+#packing using dictionary
+# def in_index(**d):
+#     return d
+
+# print(in_index(a=100,b=20,c=40,d=50,e=99))
+
+def fun1(a,b,c,d):
+    print(a,b,c,d)
+
+fun1(*"Ansh")
