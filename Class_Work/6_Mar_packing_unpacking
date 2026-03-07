@@ -14,7 +14,17 @@
 
 # print(in_index(a=100,b=20,c=40,d=50,e=99))
 
-def fun1(a,b,c,d):
-    print(a,b,c,d)
 
-fun1(*"Ansh")
+#unpacking
+# def fun1(a,b,c,d):
+#     print(a,b,c,d)
+
+# fun1(*"Ansh")
+
+#unpacking in dictionaryj
+def student(name, age, city):
+    print(name)
+    print(age)
+    print(city)
+
+student(**{"name": "Akshat", "age": 21, "city": "Jaipur"})

@@ -1,0 +1,91 @@
+import sys
+sys.setrecursionlimit(4000)
+# # 4 types of argument
+# # positional argument 
+# # default argument
+# #keyword argument
+
+# # positional argument
+# def form(name,mail,ph,age):
+#     print("name is : ",name)
+#     print("mail is : ",mail)
+#     print("phone no. is : ",ph)
+#     print("age is : ",age)
+
+# form('Akshat','techy@gmail.com',7441176667,21)
+
+# #default arguments
+# def form1(name,mail,ph,age =20):
+#     print("name is : ",name)
+#     print("mail is : ",mail)
+#     print("phone no. is : ",ph)
+#     print("age is : ",age)
+
+# form1('Akshat','techy@gmail.com',7441176667)
+
+# #keyword argument
+# def form2(name,mail,ph,age =20):
+#     print("name is : ",name)
+#     print("mail is : ",mail)
+#     print("phone no. is : ",ph)
+#     print("age is : ",age)
+
+# form2('Akshat','techy@gmail.com',7441176667,age=22)
+
+
+# #variable length argument
+# def form3(**a):
+#     print('a : ',a)
+#     print(len(a))
+
+# form3(a='akshat',b="techy@gmail.com",c=26)
+
+#factorial
+# def fact(n):
+#     factoriall = 1
+#     while(n>0):
+#         factoriall *= n
+#         n -=1
+#     print(factoriall)
+# fact(1)
+
+
+# using recursion
+# def factt(n):
+#     if n==1 or n==0:
+#         return 1
+#     return n*factt(n-1)
+# print(factt(1600))
+
+#WAP to create a function which adds minimum 2 numbers and maximum 5 numbers
+
+# def addno(*a):
+#     sums = -1 
+#     if(len(a)>1 and len(a)<6):
+#         sums = 0
+#         for i in a:
+#             sums += i
+#     print(sums)
+# inp = eval(input("enter some no. : "))
+# addno(*inp)
+
+    
+#WAP to find the sum of individual digits given in a num
+# def summ(n):
+#     ind_sum = 0
+#     while(n>0):
+#         last_digit = n%10
+#         ind_sum += last_digit
+#         n //=10
+#     print(ind_sum)
+# summ(655)
+
+class Hello:
+    a = 10
+    b  = 20
+
+    
+
+
+
+
